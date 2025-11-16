@@ -52,7 +52,7 @@ export default function Location() {
             </h1>
             <div className="w-16 h-1 bg-secondary mb-6"></div>
             <p className="text-lg text-foreground/70 max-w-2xl">
-              Villa Thús is perfectly positioned in Ahangama, Galle, Sri Lanka – a destination renowned for its natural beauty, rich culture, and warm hospitality.
+              Villa Thús is situated in Ahangama Midigama, Galle, Sri Lanka – a premier beachfront destination just 10 km from Koggala Airport, within walking distance of pristine beaches and local attractions.
             </p>
           </div>
         </section>
