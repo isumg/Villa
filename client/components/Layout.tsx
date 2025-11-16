@@ -128,7 +128,7 @@ export default function Layout({ children }: LayoutProps) {
                   <Facebook size={20} />
                 </a>
                 <a
-                  href="https://wa.me/94"
+                  href="https://wa.me/94778090900"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-secondary transition-colors"
