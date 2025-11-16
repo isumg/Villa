@@ -37,9 +37,9 @@ export default function Home() {
   ];
 
   const stats = [
-    { number: "50+", label: "Luxury Rooms & Suites" },
-    { number: "20+", label: "Years of Excellence" },
-    { number: "1000+", label: "Satisfied Guests" },
+    { number: "3", label: "En-Suite Bedrooms" },
+    { number: "3", label: "Luxury Bathrooms" },
+    { number: "Private", label: "Pool & Garden" },
   ];
 
   return (
