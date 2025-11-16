@@ -5,39 +5,39 @@ export default function Location() {
   const nearbyAttractions = [
     {
       icon: Waves,
-      title: "Ahangama Surf Beach",
-      description: "World-class surfing spot right at your doorstep",
-      distance: "5 mins walk",
-    },
-    {
-      icon: Compass,
-      title: "Weligama Town",
-      description: "Charming coastal town with local shops and culture",
-      distance: "10 mins drive",
+      title: "Midigama Beach",
+      description: "Short walk from the villa, perfect for morning swims",
+      distance: "Walking distance",
     },
     {
       icon: Waves,
-      title: "Mirissa Beach",
-      description: "Stunning sandy beach perfect for swimming and relaxation",
-      distance: "15 mins drive",
+      title: "Ahangama Beach",
+      description: "Famous surf beach just 1 km away",
+      distance: "1 km away",
     },
     {
       icon: Camera,
       title: "Stilt Fishermen",
       description: "Iconic Sri Lankan fishing tradition photo opportunity",
-      distance: "20 mins drive",
-    },
-    {
-      icon: Utensils,
-      title: "Local Restaurants",
-      description: "Authentic Sri Lankan and international cuisine",
-      distance: "Walking distance",
+      distance: "15 mins drive",
     },
     {
       icon: Compass,
       title: "Galle Fort",
       description: "UNESCO World Heritage fortress and historic landmark",
-      distance: "20 mins drive",
+      distance: "23 km away",
+    },
+    {
+      icon: Compass,
+      title: "Galle Light House",
+      description: "Historic lighthouse with panoramic ocean views",
+      distance: "23 km away",
+    },
+    {
+      icon: Utensils,
+      title: "Local Restaurants",
+      description: "Authentic Sri Lankan and international cuisine nearby",
+      distance: "Walking distance",
     },
   ];
 
