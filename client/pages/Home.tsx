@@ -162,10 +162,10 @@ export default function Home() {
                 Welcome to Villa Thús
               </h2>
               <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
-                Nestled on the pristine shores of Ahangama, Villa Thús stands as a beacon of luxury and tranquility. Our villa combines contemporary elegance with Sri Lankan warmth, offering an unforgettable experience for discerning travelers.
+                Villa Thús in Ahangama Midigama features three elegant en-suite bedrooms and three luxury bathrooms. Our exclusive beachfront property offers a private infinity pool, lush garden, and spacious terrace overlooking the ocean.
               </p>
               <p className="text-lg text-foreground/70 mb-8 leading-relaxed">
-                Founded by the visionary Mr. Nalin Samarasinghe, Villa Thús has become one of the most sought-after destinations for foreign guests seeking the perfect blend of comfort, beauty, and adventure.
+                Just a short walk from Midigama Beach and 1 km from the renowned Ahangama Beach, Villa Thús combines contemporary elegance with Sri Lankan warmth. Every detail is designed for the discerning traveler seeking authentic luxury and unforgettable coastal experiences.
               </p>
               <Link
                 to="/about"
