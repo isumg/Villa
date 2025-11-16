@@ -122,37 +122,37 @@ export default function Location() {
               <div className="space-y-6">
                 <div className="bg-white p-6 rounded-xl border border-border">
                   <h3 className="text-2xl font-serif font-bold text-primary mb-3">
-                    Coastal Charm
+                    Beach Paradise
                   </h3>
                   <p className="text-foreground/70">
-                    Ahangama is a hidden gem on Sri Lanka's South Coast, known for its pristine beaches, dramatic cliffs, and authentic fishing village atmosphere. It offers the perfect balance between natural beauty and accessibility.
+                    Villa Thús offers direct proximity to both Midigama Beach (short walk) and Ahangama Beach (1 km away), renowned for world-class surfing and pristine coastal beauty. Perfect for beach lovers and surfers.
                   </p>
                 </div>
 
                 <div className="bg-white p-6 rounded-xl border border-border">
                   <h3 className="text-2xl font-serif font-bold text-primary mb-3">
-                    Adventure Hub
+                    Convenient Airport Access
                   </h3>
                   <p className="text-foreground/70">
-                    Experience world-class surfing, whale watching tours, hiking, and water sports. The area is a paradise for adventure seekers and nature lovers alike.
+                    Located just 10 km from Koggala Airport, Villa Thús offers quick and easy access for international guests. Our airport transfer service ensures a seamless arrival experience.
                   </p>
                 </div>
 
                 <div className="bg-white p-6 rounded-xl border border-border">
                   <h3 className="text-2xl font-serif font-bold text-primary mb-3">
-                    Cultural Gateway
+                    Historic Landmarks
                   </h3>
                   <p className="text-foreground/70">
-                    Visit historic Galle Fort, explore traditional fishing techniques, and experience warm Sri Lankan hospitality. The region offers authentic cultural experiences that will enrich your journey.
+                    Galle Fort and Galle Light House (23 km away) are nearby must-see attractions. Experience UNESCO World Heritage architecture and panoramic coastal views from these historic sites.
                   </p>
                 </div>
 
                 <div className="bg-white p-6 rounded-xl border border-border">
                   <h3 className="text-2xl font-serif font-bold text-primary mb-3">
-                    Culinary Delights
+                    Local Attractions & Culture
                   </h3>
                   <p className="text-foreground/70">
-                    Discover fresh seafood, authentic curry restaurants, and world-class dining establishments. Our villa's private chef also crafts bespoke menus featuring local and international cuisine.
+                    Explore traditional stilt fishermen, authentic local restaurants, and vibrant village life. Ahangama Midigama offers authentic Sri Lankan experiences with all modern comforts nearby.
                   </p>
                 </div>
               </div>
