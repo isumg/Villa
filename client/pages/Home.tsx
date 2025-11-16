@@ -59,13 +59,13 @@ export default function Home() {
         {/* Content */}
         <div className="relative z-10 container-custom text-center max-w-3xl mx-auto px-4">
           <div className="animate-fade-in">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-primary mb-6">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-white mb-6">
               Experience Luxury Living
             </h1>
-            <p className="text-lg md:text-xl text-foreground/80 mb-8 font-light">
+            <p className="text-lg md:text-xl text-white/90 mb-8 font-light">
               by the Sea – Ahangama
             </p>
-            <p className="text-base md:text-lg text-foreground/70 mb-12 max-w-2xl mx-auto">
+            <p className="text-base md:text-lg text-white/80 mb-12 max-w-2xl mx-auto">
               Discover Villa Thús, an exclusive beachfront sanctuary offering premium accommodations, world-class amenities, and personalized hospitality in Sri Lanka's most coveted coastal destination.
             </p>
 
