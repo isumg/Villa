@@ -200,28 +200,28 @@ export default function Home() {
 
             <div className="bg-white p-8 rounded-xl border border-border hover:shadow-lg transition-shadow">
               <h3 className="text-2xl font-serif font-bold text-primary mb-4">
-                Private Chef Service
+                Modern Comfort & Connectivity
               </h3>
               <p className="text-foreground/70 mb-4">
-                Enjoy gourmet meals prepared by our world-class chef. Customized menus featuring international and Sri Lankan cuisine.
+                Air-conditioned bedrooms, free WiFi throughout the villa, work desk, and kitchenette. Perfect for both relaxation and productivity.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl border border-border hover:shadow-lg transition-shadow">
               <h3 className="text-2xl font-serif font-bold text-primary mb-4">
-                24/7 Concierge
+                Dining & Housekeeping
               </h3>
               <p className="text-foreground/70 mb-4">
-                Our dedicated team is available round-the-clock to arrange tours, dining reservations, and special experiences.
+                Full dining area, modern kitchen facilities, and professional housekeeping service to ensure your comfort throughout your stay.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl border border-border hover:shadow-lg transition-shadow">
               <h3 className="text-2xl font-serif font-bold text-primary mb-4">
-                Prime Location
+                Beach Proximity
               </h3>
               <p className="text-foreground/70 mb-4">
-                Direct beach access with proximity to Ahangama's best surf spots, restaurants, and natural attractions.
+                Just 10 km from Koggala Airport. A short walk to Midigama Beach and only 1 km from the famous Ahangama Beach.
               </p>
             </div>
           </div>
