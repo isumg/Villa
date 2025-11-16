@@ -197,8 +197,8 @@ export default function Layout({ children }: LayoutProps) {
                 </li>
                 <li className="flex gap-2 items-center">
                   <Phone size={16} className="flex-shrink-0" />
-                  <a href="tel:+94123456789" className="hover:text-secondary transition-colors">
-                    +94 123 456 789
+                  <a href="tel:+94778090900" className="hover:text-secondary transition-colors">
+                    +94 77 809 0900
                   </a>
                 </li>
                 <li className="flex gap-2 items-center">
