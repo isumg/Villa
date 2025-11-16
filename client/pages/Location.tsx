@@ -170,28 +170,31 @@ export default function Location() {
             <div className="space-y-6">
               <div className="bg-gradient-to-r from-blue-50 to-teal-50 p-8 rounded-xl border border-blue-200">
                 <h3 className="text-2xl font-bold text-primary mb-4">
-                  From Colombo International Airport
+                  From Koggala Airport
                 </h3>
                 <p className="text-foreground/70 mb-2">
-                  <span className="font-semibold">Distance:</span> Approximately 145 km
+                  <span className="font-semibold">Distance:</span> 10 km
                 </p>
                 <p className="text-foreground/70">
-                  <span className="font-semibold">Travel Time:</span> 3-3.5 hours by car
+                  <span className="font-semibold">Travel Time:</span> 15-20 minutes by car
                 </p>
                 <p className="text-foreground/70 mt-4">
-                  We arrange airport transfers and ground transportation for all guests.
+                  The closest airport to Villa Thús. We arrange airport transfers and ground transportation for all guests.
                 </p>
               </div>
 
               <div className="bg-gradient-to-r from-blue-50 to-teal-50 p-8 rounded-xl border border-blue-200">
                 <h3 className="text-2xl font-bold text-primary mb-4">
-                  From Galle City
+                  From Galle City & Fort
                 </h3>
                 <p className="text-foreground/70 mb-2">
-                  <span className="font-semibold">Distance:</span> Approximately 20 km
+                  <span className="font-semibold">Distance:</span> 23 km
                 </p>
                 <p className="text-foreground/70">
                   <span className="font-semibold">Travel Time:</span> 30-40 minutes by car
+                </p>
+                <p className="text-foreground/70 mt-4">
+                  Home to the famous UNESCO World Heritage Galle Fort and the iconic lighthouse.
                 </p>
               </div>
             </div>
