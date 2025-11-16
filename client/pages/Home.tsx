@@ -149,10 +149,12 @@ export default function Home() {
         <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="aspect-video bg-gradient-to-br from-blue-200 to-teal-100 rounded-xl overflow-hidden relative group">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F21647635e9b5466fa9bbe9f38773f576%2Fdd4174cbd7e64e80840d9e4701adcd6f?format=webp&width=800"
+                alt="Villa Thús Pool and Garden"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300"></div>
-              <div className="w-full h-full flex items-center justify-center text-white">
-                <span className="text-center text-foreground/50">Villa Image</span>
-              </div>
             </div>
 
             <div>
