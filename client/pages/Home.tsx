@@ -45,11 +45,16 @@ export default function Home() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="relative h-screen w-full overflow-hidden bg-gradient-to-b from-blue-100 to-teal-50 flex items-center justify-center">
-        {/* Background with overlay */}
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1440 320%22><path fill=%22%23ffffff%22 fill-opacity=%220.1%22 d=%22M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,128C672,128,768,160,864,160C960,160,1056,128,1152,128C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z%22></path></svg>')] bg-no-repeat bg-cover opacity-20 absolute bottom-0 w-full h-96"></div>
+      <section className="relative h-screen w-full overflow-hidden flex items-center justify-center">
+        {/* Background Image */}
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-fixed"
+          style={{
+            backgroundImage: "url('https://cdn.builder.io/api/v1/image/assets%2F21647635e9b5466fa9bbe9f38773f576%2F569c529c2c4647ee922917416dd909f0?format=webp&width=1280')",
+          }}
+        ></div>
 
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-ocean/10"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/55 via-black/45 to-black/55"></div>
 
         {/* Content */}
         <div className="relative z-10 container-custom text-center max-w-3xl mx-auto px-4">
