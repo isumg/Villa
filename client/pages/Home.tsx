@@ -263,6 +263,76 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Guest Reviews Section */}
+      <section className="py-20 bg-white">
+        <div className="container-custom">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-4">
+              What Our Guests Say
+            </h2>
+            <div className="w-16 h-1 bg-secondary mx-auto mb-6"></div>
+            <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
+              Discover why guests from around the world choose Villa Thús for their perfect tropical escape
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            {reviews.map((review, index) => (
+              <div
+                key={index}
+                className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl border border-border hover:shadow-lg transition-all duration-300"
+              >
+                <div className="flex items-start justify-between mb-4">
+                  <div className="flex items-center gap-4">
+                    <div className="w-14 h-14 bg-gradient-to-br from-primary to-ocean text-white rounded-full flex items-center justify-center font-semibold text-sm">
+                      {review.avatar}
+                    </div>
+                    <div>
+                      <h3 className="font-serif font-bold text-foreground">{review.name}</h3>
+                      <p className="text-sm text-foreground/60">{review.country}</p>
+                    </div>
+                  </div>
+                  <Quote size={20} className="text-secondary opacity-50" />
+                </div>
+
+                <div className="flex gap-1 mb-3">
+                  {Array(review.rating)
+                    .fill(null)
+                    .map((_, i) => (
+                      <Star
+                        key={i}
+                        size={16}
+                        className="fill-secondary text-secondary"
+                      />
+                    ))}
+                </div>
+
+                <h4 className="font-serif font-bold text-primary mb-2">
+                  {review.title}
+                </h4>
+                <p className="text-foreground/80 leading-relaxed text-sm">
+                  "{review.text}"
+                </p>
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center">
+            <p className="text-lg text-foreground/70 mb-6">
+              ⭐ <span className="font-semibold">4.9 out of 5</span> average rating from 200+ verified guests
+            </p>
+            <a
+              href="https://www.booking.com/hotel/lk/villa-thus-3-ensuit-villa-with-private-pool.en-gb.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block button-secondary"
+            >
+              View All Reviews on Booking.com
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-primary via-ocean to-teal text-white">
         <div className="container-custom text-center">
