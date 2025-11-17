@@ -198,13 +198,13 @@ export default function Layout({ children }: LayoutProps) {
                 <li className="flex gap-2 items-center">
                   <Phone size={16} className="flex-shrink-0" />
                   <a href="tel:+94778090900" className="hover:text-secondary transition-colors">
-                    +94 77 809 0900
+                    +94 778 090 900
                   </a>
                 </li>
                 <li className="flex gap-2 items-center">
                   <Mail size={16} className="flex-shrink-0" />
-                  <a href="mailto:info@villathus.com" className="hover:text-secondary transition-colors">
-                    info@villathus.com
+                  <a href="mailto:booking@villathus.com" className="hover:text-secondary transition-colors">
+                    booking@villathus.com
                   </a>
                 </li>
               </ul>
