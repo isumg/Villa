@@ -14,8 +14,8 @@ export default function Contact() {
     {
       icon: Phone,
       title: "Phone",
-      value: "+94 123 456 789",
-      link: "tel:+94123456789",
+      value: "+94 778 090 900",
+      link: "tel:+94778090900",
     },
     {
       icon: Mail,
@@ -26,8 +26,8 @@ export default function Contact() {
     {
       icon: MessageCircle,
       title: "WhatsApp",
-      value: "+94 123 456 789",
-      link: "https://wa.me/94123456789",
+      value: "+94 778 090 900",
+      link: "https://wa.me/94778090900",
     },
     {
       icon: MapPin,
