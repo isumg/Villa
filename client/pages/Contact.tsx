@@ -53,7 +53,7 @@ export default function Contact() {
     {
       name: "WhatsApp",
       icon: MessageCircle,
-      url: "https://wa.me/94123456789",
+      url: "https://wa.me/94778090900",
       color: "hover:text-green-500",
     },
   ];
