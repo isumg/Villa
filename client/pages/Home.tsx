@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Layout from "@/components/Layout";
-import { ChevronDown, Waves, Users, UtensilsCrossed, Wifi, Wind } from "lucide-react";
+import { ChevronDown, Waves, Users, UtensilsCrossed, Wifi, Wind, Star, Quote } from "lucide-react";
 
 export default function Home() {
   const highlights = [
