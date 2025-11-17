@@ -245,7 +245,7 @@ export default function Home() {
               Reserve Your Dates
             </Link>
             <a
-              href="https://wa.me/94123456789"
+              href="https://wa.me/94778090900"
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-white text-white px-10 py-4 rounded-lg font-semibold hover:bg-white hover:text-primary transition-colors text-lg w-full sm:w-auto"
