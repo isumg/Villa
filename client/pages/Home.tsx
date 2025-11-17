@@ -77,7 +77,7 @@ export default function Home() {
                 Book Now
               </Link>
               <a
-                href="https://wa.me/94123456789?text=Hello%20Villa%20Thús"
+                href="https://wa.me/94778090900?text=Hello%20Villa%20Thús"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="button-outline text-lg px-10 py-4 w-full sm:w-auto"
