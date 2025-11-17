@@ -207,10 +207,10 @@ export default function Booking() {
                   <div>
                     <p className="text-sm text-foreground/60 mb-1">Phone</p>
                     <a
-                      href="tel:+94123456789"
+                      href="tel:+94778090900"
                       className="text-primary font-semibold hover:text-ocean"
                     >
-                      +94 123 456 789
+                      +94 778 090 900
                     </a>
                   </div>
                   <div>
