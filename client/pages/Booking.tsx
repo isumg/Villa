@@ -9,11 +9,14 @@ export default function Booking() {
     whatsapp: "",
     checkIn: "",
     checkOut: "",
+    guests: "1",
     message: "",
   });
 
+  const [submitted, setSubmitted] = useState(false);
+
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -24,19 +27,28 @@ export default function Booking() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission - for now just log
     console.log("Booking request:", formData);
-    // Reset form
-    setFormData({
-      name: "",
-      email: "",
-      whatsapp: "",
-      checkIn: "",
-      checkOut: "",
-      message: "",
-    });
-    alert("Thank you for your inquiry! We will contact you soon.");
+    setSubmitted(true);
+    setTimeout(() => {
+      setFormData({
+        name: "",
+        email: "",
+        whatsapp: "",
+        checkIn: "",
+        checkOut: "",
+        guests: "1",
+        message: "",
+      });
+      setSubmitted(false);
+    }, 3000);
   };
+
+  const amenities = [
+    { icon: Wifi, label: "Free WiFi" },
+    { icon: Wind, label: "Air Conditioning" },
+    { icon: DoorOpen, label: "3 Bedrooms" },
+    { icon: Users, label: "Up to 8 Guests" },
+  ];
 
   return (
     <Layout>
