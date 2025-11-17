@@ -1,6 +1,6 @@
 import Layout from "@/components/Layout";
 import { useState } from "react";
-import { MessageCircle } from "lucide-react";
+import { MessageCircle, Star, Check, Users, DoorOpen, Wifi, Wind } from "lucide-react";
 
 export default function Booking() {
   const [formData, setFormData] = useState({
