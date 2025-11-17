@@ -171,7 +171,7 @@ export default function Booking() {
                   Get instant responses and quick booking confirmation
                 </p>
                 <a
-                  href="https://wa.me/94123456789?text=Hi%20Villa%20Thús%2C%20I%20would%20like%20to%20book%20a%20stay"
+                  href="https://wa.me/94778090900?text=Hi%20Villa%20Thús%2C%20I%20would%20like%20to%20book%20a%20stay"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block w-full text-center bg-green-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-600 transition-colors"
