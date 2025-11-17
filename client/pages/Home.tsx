@@ -42,6 +42,41 @@ export default function Home() {
     { number: "Private", label: "Pool & Garden" },
   ];
 
+  const reviews = [
+    {
+      name: "Sarah & Michael",
+      country: "United Kingdom",
+      rating: 5,
+      title: "Absolutely Perfect Paradise",
+      text: "Villa Thús exceeded all our expectations. The attention to detail, pristine gardens, and stunning pool made it an unforgettable experience. The host's hospitality was exceptional.",
+      avatar: "SM",
+    },
+    {
+      name: "Emma Johnson",
+      country: "Australia",
+      rating: 5,
+      title: "Best Holiday Ever!",
+      text: "This villa is a hidden gem. The location near Ahangama Beach is perfect, and the amenities are world-class. We loved every moment of our stay.",
+      avatar: "EJ",
+    },
+    {
+      name: "David & Lisa",
+      country: "USA",
+      rating: 5,
+      title: "Pure Luxury by the Sea",
+      text: "From the moment we arrived, we felt like VIPs. The private pool, excellent housekeeping, and personalized service made this our best tropical getaway yet.",
+      avatar: "DL",
+    },
+    {
+      name: "Sophie Martin",
+      country: "France",
+      rating: 5,
+      title: "Magical Sri Lankan Escape",
+      text: "Villa Thús combines luxury with authentic Sri Lankan charm. The proximity to beaches and cultural sites is ideal. Highly recommend for anyone seeking a premium retreat.",
+      avatar: "SM",
+    },
+  ];
+
   return (
     <Layout>
       {/* Hero Section */}
